@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Arial Narrow Bold';
+    box-sizing: border-box;
+}
+
+.inner{
+    width: 800px;
+    margin: auto;
+    border: 2px solid rgb(98, 0, 98);
+    box-shadow:5px 5px 3px rgb(11, 125, 173);
+    background-color: white;
+}
+.col{
+    width: 23%;
+    margin: 1%;
+    float: left;
+    background-color: rgb(134, 134, 134);
+    text-align: center;
+    
+}
+.col img{
+    width: 100%;
+}
+.clear{
+    clear: both;
+}
+@media only screen and (min-width:200px) and (max-width:576px){
+    .inner{
+        width: 100%;
+    }
+    .col{
+        width: 80%;
+        margin: 10%;
+    }
+}
+@media only screen and (min-width:578px) and (max-width:1100px){
+    .inner{
+        width: 100%;
+    }
+    .col{
+        width: 30%;
+        margin: 10%;
+    }
+}
+.imama{
+    background-image: url('contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}

@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Alike&family=Inclusive+Sans:ital@1&family=Kaisei+Decol:wght@400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+body{
+    background-color: rgb(35, 35, 35);
+}
+
+
+.item-menu{
+    text-align: center;
+    margin: 10px 30px;
+    
+}
+
+.item-menu ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 10px 13px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: rgb(126, 126, 126);
+    background-color: rgb(0, 0, 0);
+    margin-left: 15px;
+    box-shadow:  2px 3px 3px rgb(0, 0, 0);
+}
+
+.item-menu ul li:hover{ 
+    background-color: rgb(70, 69, 69);
+    box-shadow:  2px 4px 4px rgb(235, 235, 235);
+    color: rgb(0, 0, 0);
+}
+
+.item-menu ul li.active{
+    background-color: rgb(174, 174, 174);
+    box-shadow:  2px 4px 4px rgb(81, 81, 81);
+    color: rgb(67, 66, 66);
+}
+
+.item-details{
+    margin-bottom:30px;
+}
+
+#camera img{
+    height: 400px ;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px rgb(0, 0, 0);
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid rgb(93, 93, 93);
+}
+
+#camera img:hover{
+    height: 402px ;
+    width: 402px;
+    box-shadow: 2px 4px 4px rgb(128, 128, 128);
+    border: 2px solid rgb(90, 90, 90);
+}
+
+#phone img{
+    height: 400px ;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px rgb(0, 0, 0);
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid rgb(93, 93, 93);
+}
+
+#phone img:hover{
+    height: 402px ;
+    width: 402px;
+    box-shadow: 2px 4px 4px rgb(128, 128, 128);
+    border: 2px solid rgb(90, 90, 90);
+}
+
+#shoes img{
+    height: 400px ;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px rgb(0, 0, 0);
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid rgb(93, 93, 93);
+}
+
+#shoes img:hover{
+    height: 402px ;
+    width: 402px;
+    box-shadow: 2px 4px 4px rgb(128, 128, 128);
+    border: 2px solid rgb(90, 90, 90);
+}
+
+#watch img{
+    height: 400px ;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px rgb(0, 0, 0);
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid rgb(93, 93, 93);
+}
+
+#watch img:hover{
+    height: 402px ;
+    width: 402px;
+    box-shadow: 2px 4px 4px rgb(128, 128, 128);
+    border: 2px solid rgb(90, 90, 90);
+}
+
+#headphone img{
+    height: 400px ;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px rgb(0, 0, 0);
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid rgb(93, 93, 93);
+}
+
+#headphone img:hover{
+    height: 402px ;
+    width: 402px;
+    box-shadow: 2px 4px 4px rgb(128, 128, 128);
+    border: 2px solid rgb(90, 90, 90);
+}
+.code{
+    text-align: center;
+   
+    border-radius: 18px;
+    padding: 30px;
+}
+.lots{
+    text-align: center;
+    color: rgb(85, 85, 85);
+    background-color: black;
+    font-size: 54px;
+}
+.of{
+    background-color: black;
+    color: gray;
+    padding: 7px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.of:hover{
+    background-color: gray;
+    color: black;
+}
